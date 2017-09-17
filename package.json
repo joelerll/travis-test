@@ -10,5 +10,9 @@
     "jest": "^20.0.4",
     "mocha": "^3.5.0",
     "tape": "^4.8.0"
-  }
+  },
+	"scripts": {
+			"test": "npm run mocha mocha.test.js",
+			"mocha": "mocha"
+	}
 }
